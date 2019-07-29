@@ -1,0 +1,27 @@
+Features used to train model:
+['age', 'education-num', 'capital-gain', 'capital-loss', 'Federal-gov', 'Local-gov', 'Private', 'Self-emp-inc', 'Self-emp-not-inc', 'State-gov', 'Workclass_others', 'Divorced', 'Married-spouse-absent', 'Never-married', 'Separated', 'Widowed', 'Married', 'Adm-clerical', 'Craft-repair', 'Exec-managerial', 'Farming-fishing', 'Handlers-cleaners', 'Machine-op-inspct', 'Other-service', 'Prof-specialty', 'Protective-serv', 'Sales', 'Tech-support', 'Transport-moving', 'Occupation-others', 'Husband', 'Not-in-family', 'Other-relative', 'Own-child', 'Unmarried', 'Wife', 'Asian-Pac-Islander', 'Black', 'Other', 'White', 'Female', 'Male']
+Bayes: 0.789 0.789
+knn: 0.855 0.823
+SVM: 0.825 0.824
+neural: 0.794 0.790
+Gradient Boost: 0.883 0.864
+
+
+Features used to train model:
+[... 'log-capital-gain', 'log-capital-loss']
+
+Bayes: 0.759 0.759	<------(-)	
+knn: 0.860 0.831	<------(+)
+SVM: 0.830 0.828
+neural: 0.840 0.842	<------(++)
+Gradient Boost: 0.883 0.866
+
+
+Features used to train model:
+[... 'rank-capital-gain', 'rank-capital-loss']
+
+Bayes: 0.758 0.758	<------(-)	
+knn: 0.862 0.831	<------(+)
+SVM: 0.829 0.833	<------(+)
+neural: 0.786 0.791	
+Gradient Boost: 0.883 0.866
